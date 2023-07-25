@@ -2,7 +2,7 @@ from typing import Union
 
 from fastapi import FastAPI,status,HTTPException
 
-# import pyrebase
+
 from database import SessionLocal, Base, Product
 from models import CustomerUser
 import pdb
